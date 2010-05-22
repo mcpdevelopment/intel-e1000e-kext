@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32D94FC60562CBF700B6AF17 /* IntelE1000e.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A224C3EFF42367911CA2CB7 /* IntelE1000e.h */; };
+		32D94FC80562CBF700B6AF17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		32D94FCA0562CBF700B6AF17 /* IntelE1000e.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* IntelE1000e.cpp */; settings = {ATTRIBUTES = (); }; };
+		460A1453118C437600235092 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 460A1452118C437600235092 /* readme.txt */; };
+		460A1468118C4E8100235092 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 460A1466118C4E8100235092 /* COPYING */; };
+		460A1469118C4E8100235092 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 460A1467118C4E8100235092 /* README */; };
+		467978AB118606C500B1AD82 /* e1000_80003es2lan.c in Sources */ = {isa = PBXBuildFile; fileRef = 467978A9118606C500B1AD82 /* e1000_80003es2lan.c */; };
+		467978B01186073700B1AD82 /* e1000_80003es2lan.h in Headers */ = {isa = PBXBuildFile; fileRef = 467978AF1186073700B1AD82 /* e1000_80003es2lan.h */; };
+		467978B71186075A00B1AD82 /* e1000_82571.h in Headers */ = {isa = PBXBuildFile; fileRef = 467978B51186075A00B1AD82 /* e1000_82571.h */; };
+		467978B81186075A00B1AD82 /* e1000_82571.c in Sources */ = {isa = PBXBuildFile; fileRef = 467978B61186075A00B1AD82 /* e1000_82571.c */; };
+		467978BC118607AF00B1AD82 /* e1000_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 467978BB118607AF00B1AD82 /* e1000_defines.h */; };
+		467978C1118607D100B1AD82 /* e1000_ich8lan.h in Headers */ = {isa = PBXBuildFile; fileRef = 467978BF118607D100B1AD82 /* e1000_ich8lan.h */; };
+		467978C2118607D100B1AD82 /* e1000_ich8lan.c in Sources */ = {isa = PBXBuildFile; fileRef = 467978C0118607D100B1AD82 /* e1000_ich8lan.c */; };
+		467978C71186080700B1AD82 /* e1000_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 467978C51186080700B1AD82 /* e1000_mac.h */; };
+		467978C81186080700B1AD82 /* e1000_mac.c in Sources */ = {isa = PBXBuildFile; fileRef = 467978C61186080700B1AD82 /* e1000_mac.c */; };
+		467978CD1186083300B1AD82 /* e1000_manage.h in Headers */ = {isa = PBXBuildFile; fileRef = 467978CB1186083300B1AD82 /* e1000_manage.h */; };
+		467978CE1186083300B1AD82 /* e1000_manage.c in Sources */ = {isa = PBXBuildFile; fileRef = 467978CC1186083300B1AD82 /* e1000_manage.c */; };
+		467978D31186086200B1AD82 /* e1000_nvm.h in Headers */ = {isa = PBXBuildFile; fileRef = 467978D11186086200B1AD82 /* e1000_nvm.h */; };
+		467978D41186086200B1AD82 /* e1000_nvm.c in Sources */ = {isa = PBXBuildFile; fileRef = 467978D21186086200B1AD82 /* e1000_nvm.c */; };
+		467978D91186089100B1AD82 /* e1000_phy.h in Headers */ = {isa = PBXBuildFile; fileRef = 467978D71186089100B1AD82 /* e1000_phy.h */; };
+		467978DA1186089100B1AD82 /* e1000_phy.c in Sources */ = {isa = PBXBuildFile; fileRef = 467978D81186089100B1AD82 /* e1000_phy.c */; };
+		467978DE118608B900B1AD82 /* e1000_regs.h in Headers */ = {isa = PBXBuildFile; fileRef = 467978DD118608B900B1AD82 /* e1000_regs.h */; };
+		467978E2118608D800B1AD82 /* e1000.h in Headers */ = {isa = PBXBuildFile; fileRef = 467978E1118608D800B1AD82 /* e1000.h */; };
+		467978E6118608F400B1AD82 /* hw.h in Headers */ = {isa = PBXBuildFile; fileRef = 467978E5118608F400B1AD82 /* hw.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A224C3EFF42367911CA2CB7 /* IntelE1000e.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = IntelE1000e.h; sourceTree = "<group>"; };
+		1A224C3FFF42367911CA2CB7 /* IntelE1000e.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntelE1000e.cpp; sourceTree = "<group>"; };
+		32D94FCF0562CBF700B6AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D94FD00562CBF700B6AF17 /* IntelE1000e.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelE1000e.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		460A1452118C437600235092 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		460A1466118C4E8100235092 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		460A1467118C4E8100235092 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		467978A9118606C500B1AD82 /* e1000_80003es2lan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = e1000_80003es2lan.c; sourceTree = "<group>"; };
+		467978AF1186073700B1AD82 /* e1000_80003es2lan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e1000_80003es2lan.h; sourceTree = "<group>"; };
+		467978B51186075A00B1AD82 /* e1000_82571.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e1000_82571.h; sourceTree = "<group>"; };
+		467978B61186075A00B1AD82 /* e1000_82571.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = e1000_82571.c; sourceTree = "<group>"; };
+		467978BB118607AF00B1AD82 /* e1000_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e1000_defines.h; sourceTree = "<group>"; };
+		467978BF118607D100B1AD82 /* e1000_ich8lan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e1000_ich8lan.h; sourceTree = "<group>"; };
+		467978C0118607D100B1AD82 /* e1000_ich8lan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = e1000_ich8lan.c; sourceTree = "<group>"; };
+		467978C51186080700B1AD82 /* e1000_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e1000_mac.h; sourceTree = "<group>"; };
+		467978C61186080700B1AD82 /* e1000_mac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = e1000_mac.c; sourceTree = "<group>"; };
+		467978CB1186083300B1AD82 /* e1000_manage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e1000_manage.h; sourceTree = "<group>"; };
+		467978CC1186083300B1AD82 /* e1000_manage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = e1000_manage.c; sourceTree = "<group>"; };
+		467978D11186086200B1AD82 /* e1000_nvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e1000_nvm.h; sourceTree = "<group>"; };
+		467978D21186086200B1AD82 /* e1000_nvm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = e1000_nvm.c; sourceTree = "<group>"; };
+		467978D71186089100B1AD82 /* e1000_phy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e1000_phy.h; sourceTree = "<group>"; };
+		467978D81186089100B1AD82 /* e1000_phy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = e1000_phy.c; sourceTree = "<group>"; };
+		467978DD118608B900B1AD82 /* e1000_regs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e1000_regs.h; sourceTree = "<group>"; };
+		467978E1118608D800B1AD82 /* e1000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e1000.h; sourceTree = "<group>"; };
+		467978E5118608F400B1AD82 /* hw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hw.h; sourceTree = "<group>"; };
+		8DA8362C06AD9B9200E5AC22 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = /System/Library/Frameworks/Kernel.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32D94FCB0562CBF700B6AF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* IntelE1000e */ = {
+			isa = PBXGroup;
+			children = (
+				247142CAFF3F8F9811CA285C /* Source */,
+				8DA8362C06AD9B9200E5AC22 /* Kernel.framework */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = IntelE1000e;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				460A1466118C4E8100235092 /* COPYING */,
+				460A1467118C4E8100235092 /* README */,
+				32D94FCF0562CBF700B6AF17 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				460A1452118C437600235092 /* readme.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32D94FD00562CBF700B6AF17 /* IntelE1000e.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247142CAFF3F8F9811CA285C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				467978DD118608B900B1AD82 /* e1000_regs.h */,
+				467978BB118607AF00B1AD82 /* e1000_defines.h */,
+				467978E5118608F400B1AD82 /* hw.h */,
+				467978E1118608D800B1AD82 /* e1000.h */,
+				467978D71186089100B1AD82 /* e1000_phy.h */,
+				467978D81186089100B1AD82 /* e1000_phy.c */,
+				467978D11186086200B1AD82 /* e1000_nvm.h */,
+				467978D21186086200B1AD82 /* e1000_nvm.c */,
+				467978CB1186083300B1AD82 /* e1000_manage.h */,
+				467978CC1186083300B1AD82 /* e1000_manage.c */,
+				467978C51186080700B1AD82 /* e1000_mac.h */,
+				467978C61186080700B1AD82 /* e1000_mac.c */,
+				467978BF118607D100B1AD82 /* e1000_ich8lan.h */,
+				467978C0118607D100B1AD82 /* e1000_ich8lan.c */,
+				467978B51186075A00B1AD82 /* e1000_82571.h */,
+				467978B61186075A00B1AD82 /* e1000_82571.c */,
+				467978AF1186073700B1AD82 /* e1000_80003es2lan.h */,
+				467978A9118606C500B1AD82 /* e1000_80003es2lan.c */,
+				1A224C3EFF42367911CA2CB7 /* IntelE1000e.h */,
+				1A224C3FFF42367911CA2CB7 /* IntelE1000e.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32D94FC50562CBF700B6AF17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94FC60562CBF700B6AF17 /* IntelE1000e.h in Headers */,
+				467978B01186073700B1AD82 /* e1000_80003es2lan.h in Headers */,
+				467978B71186075A00B1AD82 /* e1000_82571.h in Headers */,
+				467978BC118607AF00B1AD82 /* e1000_defines.h in Headers */,
+				467978C1118607D100B1AD82 /* e1000_ich8lan.h in Headers */,
+				467978C71186080700B1AD82 /* e1000_mac.h in Headers */,
+				467978CD1186083300B1AD82 /* e1000_manage.h in Headers */,
+				467978D31186086200B1AD82 /* e1000_nvm.h in Headers */,
+				467978D91186089100B1AD82 /* e1000_phy.h in Headers */,
+				467978DE118608B900B1AD82 /* e1000_regs.h in Headers */,
+				467978E2118608D800B1AD82 /* e1000.h in Headers */,
+				467978E6118608F400B1AD82 /* hw.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32D94FC30562CBF700B6AF17 /* IntelE1000e */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "IntelE1000e" */;
+			buildPhases = (
+				32D94FC50562CBF700B6AF17 /* Headers */,
+				32D94FC70562CBF700B6AF17 /* Resources */,
+				32D94FC90562CBF700B6AF17 /* Sources */,
+				32D94FCB0562CBF700B6AF17 /* Frameworks */,
+				32D94FCC0562CBF700B6AF17 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntelE1000e;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+			productName = IntelE1000e;
+			productReference = 32D94FD00562CBF700B6AF17 /* IntelE1000e.kext */;
+			productType = "com.apple.product-type.kernel-extension.iokit";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "IntelE1000e" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* IntelE1000e */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32D94FC30562CBF700B6AF17 /* IntelE1000e */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32D94FC70562CBF700B6AF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94FC80562CBF700B6AF17 /* InfoPlist.strings in Resources */,
+				460A1453118C437600235092 /* readme.txt in Resources */,
+				460A1468118C4E8100235092 /* COPYING in Resources */,
+				460A1469118C4E8100235092 /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		32D94FCC0562CBF700B6AF17 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D94FC90562CBF700B6AF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94FCA0562CBF700B6AF17 /* IntelE1000e.cpp in Sources */,
+				467978AB118606C500B1AD82 /* e1000_80003es2lan.c in Sources */,
+				467978B81186075A00B1AD82 /* e1000_82571.c in Sources */,
+				467978C2118607D100B1AD82 /* e1000_ich8lan.c in Sources */,
+				467978C81186080700B1AD82 /* e1000_mac.c in Sources */,
+				467978CE1186083300B1AD82 /* e1000_manage.c in Sources */,
+				467978D41186086200B1AD82 /* e1000_nvm.c in Sources */,
+				467978DA1186089100B1AD82 /* e1000_phy.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91DA08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.1.2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_CW_ASM_SYNTAX = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_ASM_KEYWORD = YES;
+				GCC_ENABLE_BUILTIN_FUNCTIONS = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_USE_STANDARD_INCLUDE_SEARCHING = NO;
+				GCC_VERSION = 4.0;
+				GCC_WARN_UNUSED_VALUE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.katharsys.driver.IntelE1000e;
+				MODULE_VERSION = "${CURRENT_PROJECT_VERSION}";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = IntelE1000e;
+				SDKROOT = macosx10.5;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				STRIP_STYLE = "non-global";
+				VALID_ARCHS = "i386 ppc ppc64 ppc7400 ppc970 x86_64";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		1DEB91DB08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CURRENT_PROJECT_VERSION = 1.1.2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_CW_ASM_SYNTAX = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_ASM_KEYWORD = NO;
+				GCC_ENABLE_BUILTIN_FUNCTIONS = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_USE_STANDARD_INCLUDE_SEARCHING = YES;
+				GCC_VERSION = 4.0;
+				GCC_WARN_UNUSED_VALUE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.katharsys.driver.IntelE1000e;
+				MODULE_VERSION = "${CURRENT_PROJECT_VERSION}";
+				PRODUCT_NAME = IntelE1000e;
+				SDKROOT = macosx10.6;
+				STRIP_STYLE = "non-global";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		1DEB91DE08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB91DF08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "IntelE1000e" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DA08733DB10010E9CD /* Debug */,
+				1DEB91DB08733DB10010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "IntelE1000e" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DE08733DB10010E9CD /* Debug */,
+				1DEB91DF08733DB10010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
